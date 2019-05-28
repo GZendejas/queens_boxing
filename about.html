@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="navbar-nav">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="pricing.html">PRICING</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+        <span class="open-slide">
+            <a href="javascript:void(0)" onclick="openSlideMenu()">
+                <svg width="30" height="30">
+                    <path d="M0,5 30,5" stroke="#ad4190" stroke-width="5" />
+                    <path d="M0,14 30,14" stroke="#ad4190" stroke-width="5" />
+                    <path d="M0,23 30,23" stroke="#ad4190" stroke-width="5" />
+                </svg>
+            </a>
+        </span>
+    </nav>
+    <div id="side-menu" class="side-nav">
+        <a href="javascript:void(0)" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+        <a href="index.html">HOME</a>
+        <a href="about.html">ABOUT</a>
+        <a href="pricing.html">PRICING</a>
+        <a href="contact.html">CONTACT</a>
+    </div>
+    <div id="main-page">
+        <h2 class="about-heading">About Us</h2>
+        <div class="wrapper">
+            
+            <div class="about-staff">
+                <div class="about-staff__bio-heading-box">
+                    <h3 class="about-staff__bio-heading">Carol Matthews</h3>
+                    <h4 class="about-staff__bio-sub-heading">Owner/Trainer</h4>
+                </div>
+                
+                <img class="about-staff__img" src="img/glove_kiss.jpg">
+                <div class="about-staff__bio">
+                    <p class="about-staff__bio-text">
+                        Carol Matthews first began training at her local boxing gym 10 years ago. Fresh out of the Marines, she enjoyed the physical challenge of boxing training, and the mental challenge of sparring. Soon she began competing, and eventually training others.
+                    </p>
+                    <p class="about-staff__bio-text">
+                        In 2016, she opened Queens Boxing. Her goal was to provide women with fitness and self-defense training through boxing training.
+                    </p>
+                </div>
+            </div>
+            <div class="about-staff">
+                <div class="about-staff__bio-heading-box">
+                    <h3 class="about-staff__bio-heading">Lisa Hernandez</h3>
+                    <h4 class="about-staff__bio-sub-heading">Boxing Trainer</h4>
+                </div>
+                
+                <img class="about-staff__img" src="img/gloves_car.jpg">
+                <div class="about-staff__bio">
+                    <p class="about-staff__bio-text">
+                        Lisa grew up in San Antonio, Texas. She's the granddaughter of Joe "The El Paso Kid" Hernandez, a popular local boxer from the 1940's and 1950's. She began training at the age of 5, and was a decorated amateur in her teens. At 18 years old, she joined the San Antonio Police Department, and retired after more than 20 years of service.
+                    </p>
+                    <p class="about-staff__bio-text">
+                        She moved to the bay area with her family in 2018, and began training at Queens Boxing soon after.
+                    </p>
+                </div>
+            </div>
+            <div class="about-staff">
+                <div class="about-staff__bio-heading-box">
+                    <h3 class="about-staff__bio-heading">Sally Abboud</h3>
+                    <h4 class="about-staff__bio-sub-heading">Fitness Trainer</h4>
+                </div>
+                
+                <img class="about-staff__img" src="img/jumping.jpg">
+                <div class="about-staff__bio">
+                    <p class="about-staff__bio-text">
+                        Sally holds a bachelor's degree in kinesiology from San Jose State University. She's worked with several local track and field athletes, and world class female soccer players.
+                    </p>
+                    <p class="about-staff__bio-text">
+                        She provides fitness training and nutrition consultations at Queens Boxing.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        Copyright &copy; 2019 Guillermo Zendejas
+    </footer>
+   
+    <script src="js/main.js"></script>
+</body>
+</html>
