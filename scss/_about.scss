@@ -1,0 +1,63 @@
+
+
+.about-heading {
+    background-color: $secondary-color;
+    color: $blue-color;
+    font-size: 5rem;
+    letter-spacing: .3rem;
+    padding: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.about-staff {
+    padding: 5rem;
+}
+
+.about-staff__bio-heading-box {
+    height: 8rem;
+}
+
+.about-staff__bio-heading {
+    font-size: 2rem;
+    letter-spacing: .4rem;
+    margin-bottom: .8rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+.about-staff__bio-sub-heading {
+    font-size: 1.5rem;
+    color: $purple-color;
+    letter-spacing: .2rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+}
+
+.about-staff__img {
+    border-radius: 2rem;
+    display: block;
+    height: 30rem;
+    margin-bottom: 1.5rem;
+    object-fit: cover;
+    object-position: top;
+    width: 100%;
+}
+
+.about-staff__bio {
+    width: 100%;
+}
+
+.about-staff__bio-text
+ {
+    font-size: 1.6rem;
+    margin-bottom: 1.5rem;
+    line-height: 3rem;
+}
+
+
+
+
+

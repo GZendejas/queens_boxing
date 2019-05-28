@@ -1,0 +1,56 @@
+
+
+.pricing-header {
+    background-image: url('../img/ring.jpg');
+    background-size: cover;
+    background-position-y: 75%;
+    height: 45vh;
+    position: relative;
+}
+
+.pricing-wrapper {
+    background-color: $primary-color;
+    min-height: 100vh;
+    padding: 5rem;
+}
+
+.pricing-heading {
+    background-color: $secondary-color;
+    color: $blue-color;
+    font-size: 5rem;
+    letter-spacing: .3rem;
+    padding: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    
+
+}
+
+.pricing-section {
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.pricing-section__heading {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+    display: inline-block;
+    letter-spacing: .4rem;
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: .2rem solid $purple-color;
+    width: 80%;
+
+}
+
+.item-row {
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+}
+
+.item-name,
+.item-price {
+    font-size: 2rem;
+    text-align: left;
+    line-height: 4rem;
+}

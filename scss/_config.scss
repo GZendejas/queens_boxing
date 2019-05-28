@@ -1,0 +1,50 @@
+$primary-color: #fefefe;
+$secondary-color: #111;
+$purple-color: #ad4190;
+$blue-color: #42c2f4;
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.body {
+    background: $primary-color;
+    box-sizing: border-box;
+    color: $secondary-color;
+    font-family: 'Lato', sans-serif;
+    
+}
+
+
+// Media query mixins
+@mixin mediaSm {
+    @media screen and (max-width: 500px) {
+        @content;
+    }
+}
+
+@mixin mediaMd {
+    @media screen and (min-width: 501px) and (max-width: 768px) {
+        @content;
+    }
+}
+
+@mixin mediaLg {
+    @media screen and (min-width: 769px) and (max-width: 1170px) {
+        @content;
+    }
+}
+
+@mixin mediaXl {
+    @media screen and (min-width: 1171px) {
+        @content;
+    }
+}

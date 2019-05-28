@@ -1,0 +1,90 @@
+body {
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+}
+
+.open-slide {
+    
+    position: fixed;
+    z-index: 2;
+    top: 4px;
+    right: 10px;
+}
+
+
+
+.navbar {
+    background-color: $primary-color;
+    overflow: hidden;
+    height: 63px;
+    // border-bottom: 2px solid black;
+  
+}
+
+.navbar-nav {
+    padding-right: 50px;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: $secondary-color;
+    color: $purple-color;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    letter-spacing: .2rem;
+    
+}
+
+.navbar ul {
+    margin: 8px 0 0 0;
+    list-style: none;
+}
+
+.navbar a:hover {
+    color: $blue-color;
+}
+
+.side-nav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    right: 0;
+    // left: 0;
+    background-color: #222;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+.side-nav a {
+    padding: 10px 10px 10px 30px;
+    text-decoration: none;
+    font-size: 22px;
+    color: $blue-color;
+    display: block;
+    transition: .3s;
+}
+
+.side-nav a:hover {
+    color: $primary-color;
+}
+
+.side-nav .btn-close {
+    position: absolute;
+    top: 0;
+    right: 22px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main-page {
+    transition: margin-right 0.5s;
+    
+    overflow: hidden;
+    width: 100%;
+}

@@ -1,0 +1,22 @@
+.contact-wrapper {
+    background-color: $primary-color;
+    text-align: center;
+    min-height: 85vh;
+}
+
+.contact__container {
+    display: inline-block
+}
+
+
+.contact__label { 
+    color: $purple-color;
+    font-size: 1.8rem;
+    margin-top: 2.5rem;
+    text-transform: uppercase;
+  
+}
+
+.contact__value {
+    font-size: 2rem;
+}

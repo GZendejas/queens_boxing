@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar">
+        
+        <ul class="navbar-nav">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="pricing.html">PRICING</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+        <span class="open-slide">
+            <a href="javascript:void(0)" onclick="openSlideMenu()">
+                <svg width="30" height="30">
+                    <path d="M0,5 30,5" stroke="#ad4190" stroke-width="5" />
+                    <path d="M0,14 30,14" stroke="#ad4190" stroke-width="5" />
+                    <path d="M0,23 30,23" stroke="#ad4190" stroke-width="5" />
+                </svg>
+            </a>
+        </span>
+    </nav>
+    <div id="side-menu" class="side-nav">
+        <a href="javascript:void(0)" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+        <a href="index.html">HOME</a>
+        <a href="about.html">ABOUT</a>
+        <a href="pricing.html">PRICING</a>
+        <a href="contact.html">CONTACT</a>
+    </div>
+    <div id="main-page">
+        <h2 class="about-heading">Contact Us</h2>
+        <div class="contact-wrapper">
+            <div class="contact__container">
+                <h3 class="contact__label">Phone</h3>
+                <p class="contact__value">
+                    408-***-****
+                </p>
+                <h3 class="contact__label">Address</h3>
+                <p class="contact__value">1411 Boulder Rd</p>
+                <p class="contact__value">San Jose, CA 95116</p>
+                <h3 class="contact__label">Email</h3>
+                <p class="contact__value">
+                    pr@qboxing.com
+                </p>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        Copyright &copy; 2019 Guillermo Zendejas
+    </footer>
+   
+    <script src="js/main.js"></script>
+</body>
+</html>
